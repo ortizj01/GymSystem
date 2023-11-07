@@ -25,6 +25,10 @@ app.get('/sign-in', (req, res)=>{
     res.render('sign-in')
 })
 
+app.get('/rutinas', (req, res)=>{
+    res.render('rutinas')
+})
+
 app.get('/plantilla', (req, res)=>{
     res.render('plantilla')
 })
