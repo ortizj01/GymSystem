@@ -21,6 +21,10 @@ app.get('/', (req, res)=>{
     })//Redireccionar hacia el archivo hbs
 })
 
+app.get('/sign-in', (req, res)=>{
+    res.render('sign-in')
+})
+
 app.get('/plantilla', (req, res)=>{
     res.render('plantilla')
 })
