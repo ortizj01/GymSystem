@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantilla</title>
+    <title>Rutinas</title>
     {{> header}}
 </head>
 <body class="  ">
@@ -28,10 +28,11 @@
 
               
     <!-- Inicio contenido -->
-    <div>
-        <button type="submit" class="btn btn-danger">Agregrar +</button> 
+    <br>
+    <div class="position-relative">
+        <button type="submit" class="btn btn-danger position-absolute top-0 end-0 me-5">Agregar +</button>
     </div>
-     
+    <br>
     <div class="container-fluid content-inner">
         <div class="row">
       <div class="col-sm-12">
@@ -243,6 +244,12 @@
    </div>
     </div>
     <!-- Fin contenido --> 
+
+   <!-- Footer Section Start -->
+    <footer class="footer">
+        {{> copyright}}
+    </footer>
+   <!-- Footer Section End -->
 
     {{> footer}}
 </body>
